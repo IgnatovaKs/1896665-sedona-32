@@ -1,0 +1,22 @@
+
+.main-index {
+    color: #000000;
+  background-color: #FFFFFF;
+    background-image: url("img/index-background.jpg");
+    background-size: 1200px 485px;
+    background-repeat: no-repeat;
+}
+.distribution {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+      background-image: url("img/background-footer.jpg");
+      background-size: 1200px 411px;
+      background-repeat: no-repeat;  
+}
+.main-inner {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+      background-image: url("img/catalog-background.jpg");
+      background-size: 1200px 408px;
+      background-repeat: no-repeat;   
+}
