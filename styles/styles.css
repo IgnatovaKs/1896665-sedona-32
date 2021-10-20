@@ -1,22 +1,285 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/pt-sans-regular.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    background-color: #ffffff;
+  }
+
+  .page-header {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  .navigation-link {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold; 
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
 
 .main-index {
     color: #000000;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     background-image: url("..img/index-background.jpg");
     background-size: 1200px 485px;
     background-repeat: no-repeat;
 }
+.reasons-header {
+    background-size: 1200px 282px;
+}
+.reasons-header-title {
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.reasons-header-description {
+    color: #333333;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.reasons-list {
+    text-align: center;
+}
+.reasons-title {
+    color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reasons-white-title {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.number {
+    color: #333333;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reasons-description {
+    color: #333333;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+.search-hotel {
+    background-color: #ffffff;
+    background-size: 1200px 417px;
+}
+.search-hotel-title {
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.search-hotel-description {
+    color: #333333; 
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+.button {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 .distribution {
-    color: #FFFFFF;
-    background-color: #FFFFFF;
+    color: #ffffff;
+    background-color: #ffffff;
     background-image: url("..img/background-footer.jpg");
     background-size: 1200px 411px;
     background-repeat: no-repeat;  
 }
+.distribution-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.distribution-description {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+.page-footer {
+    background-color: #ffffff; 
+    background-size: 1200px 120px;
+}
+
+.footer-contacts {
+    color: #000000; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;  
+}
 .main-inner {
-    color: #FFFFFF;
-    background-color: #FFFFFF;
+    color: #ffffff;
+    background-color: #ffffff;
     background-image: url("..img/catalog-background.jpg");
     background-size: 1200px 408px;
     background-repeat: no-repeat;   
+}
+.inner-header-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 78px;
+}
+.breadcrumbs-link {
+    color: inherit;
+}
+.catalog-filter-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+}
+.control-label {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+.sorting-hotel-title {
+    color: #000000; 
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+.select-control {
+    color: #333333; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+.button button-light {
+    border: 2px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.hotel-card-title {
+    color: #000000; 
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+}
+.hotel-card-type {
+    color: #333333;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+.hotel-card-price {
+    color: #333333;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+.hotel-card-button button {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hotel-card-rating-button button {
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button pagination-show-more {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pagination-item {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pagination-link pagination-current {
+    color: #000000; 
+}
+.sorting-type {
+    color: #333333;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+.distribution-title-catalog {
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.distribution-description-catalog {
+    color: #333333;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
 }
