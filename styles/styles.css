@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("fonts/pt-sans-regular.woff2") format("woff2");
+    src: url("..fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
   }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    src: url("..fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
   }
 
@@ -36,7 +36,17 @@
     background-color: #ffffff;
     text-decoration: none;
   }
-
+.navigation-link-form {
+    color: #ffffff;
+    background-color: #756257;
+    background-size: 160px 37px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
 .main-index {
     color: #000000;
     background-color: #ffffff;
@@ -113,18 +123,34 @@
     line-height: 26px;
     text-align: center;
 }
-.button {
+.search-hotel-link {
     color: #ffffff;
+    background-color: #756257;
+    background-size: 575px 60px;
+    border-radius: 10px;
     font-weight: bold;
     font-size: 20px;
     line-height: 36px;
     text-align: center;
+    text-transform: uppercase;
+}
+.button {
+    color: #ffffff;
+    background-color: #83B3D3;
+    background-size: 200px 60px;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    align-items: center;
     text-decoration: none;
     text-transform: uppercase;
+    display: flex;
 }
 .distribution {
     color: #ffffff;
-    background-color: #ffffff;
+    background-color: #F2F2F2;
     background-image: url("..img/background-footer.jpg");
     background-size: 1200px 411px;
     background-repeat: no-repeat;  
@@ -143,6 +169,19 @@
     font-size: 22px;
     line-height: 26px;
     text-align: center;
+}
+.distribution input {
+    color: #000000;
+    background: #F2F2F2; 
+    background-size: 600px 60px;
+    border-radius: 0px 10px 10px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
 }
 .page-footer {
     background-color: #ffffff; 
@@ -180,10 +219,24 @@
     font-size: 20px;
     line-height: 26px;
 }
+
 .control-label {
     font-weight: normal;
     font-size: 18px;
     line-height: 23px;
+}
+.catalog-button button {
+    color: #ffffff;
+    background-color: #83B3D3;
+    background-size: 160px 48px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
 }
 .sorting-hotel-title {
     color: #000000; 
@@ -199,7 +252,8 @@
     font-size: 18px;
     line-height: 23px;
 }
-.button button-light {
+.button .button-light {
+    background-size: 48px 48px;
     border: 2px solid #E6E6E6;
     box-sizing: border-box;
     border-radius: 4px;
@@ -222,7 +276,7 @@
     font-size: 18px;
     line-height: 23px;
 }
-.hotel-card-button button {
+.hotel-card-button .button {
     color: #ffffff;
     font-weight: bold;
     font-size: 16px;
@@ -230,16 +284,22 @@
     text-align: center;
     text-transform: uppercase;
 }
-.hotel-card-rating-button button {
+.hotel-card-rating-button .button {
     color: #333333;
+    background-color: #756257;
+    background-size: 151px 37px;
+    border-radius: 4px;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
 }
-.button pagination-show-more {
+.button .pagination-show-more {
     color: #ffffff;
+    background-color: #83B3D3;
+    background-size: 625px 55px;
+    border-radius: 4px;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -259,14 +319,22 @@
     text-align: center;
     text-transform: uppercase;
 }
-.pagination-link pagination-current {
+.pagination-link .pagination-current {
     color: #000000; 
 }
 .sorting-type {
     color: #333333;
+    border: 2px solid #E6E6E6;
+    background-size: 287px 48px;
+    box-sizing: border-box;
+    border-radius: 4px;
     font-weight: normal;
     font-size: 18px;
     line-height: 23px;
+}
+.distribution-catalog {
+    color: #ffffff;
+    background-color: #F2F2F2;
 }
 .distribution-title-catalog {
     color: #000000;
@@ -282,4 +350,17 @@
     font-size: 22px;
     line-height: 26px;
     text-align: center;
+}
+.distribution-catalog input {
+    color: #000000;
+    background: #F2F2F2; 
+    background-size: 600px 60px;
+    border-radius: 0px 10px 10px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
 }
